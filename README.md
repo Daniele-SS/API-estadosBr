@@ -41,6 +41,8 @@ exercicio_06/
 └── modulo/
     ├── functions.js        # Lógica de filtragem e funções exportadas
     └── estados_cidades.js  # Base de dados em JSON
+└── front-end/
+    ├── index.html        # Lógica do Web Site
 ```
 
 ---
