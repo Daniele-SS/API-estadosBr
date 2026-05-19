@@ -203,7 +203,11 @@
   </footer>
 
 <script>
-  const BASE = 'http://localhost:8080/v1/senai'
+  // DESENVOLVIMENTO LOCAL
+  // const BASE = 'http://localhost:8080/v1/senai'
+
+  // PRODUÇÃO — Render
+  const BASE = 'https://api-estados-cidades-br.onrender.com/v1/senai'
 
   async function req(endpoint) {
     const r = await fetch(BASE + endpoint)
